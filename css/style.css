@@ -1,0 +1,46 @@
+.title{
+	width: 95%;
+  margin: 10px auto 43px auto;
+  position: relative;
+}
+
+.title h2{
+  font-size: 2.4vw;
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  white-space: nowrap;
+  line-height: 0;
+}
+
+.title h3{
+  font-size: 1.5vw;
+  float: right;
+  font-family: "adobe-garamond-pro", serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #343434;
+}
+
+/* mobile phone */
+@media all and (max-width: 768px) {
+  .title{
+    width: 95%;
+    margin: 10px auto 0px auto;
+    position: relative;
+}
+  .title h2{
+    font-size: 34px;
+    width: 100%;
+    position: relative;
+  }
+  .title h3{
+    font-size: 20px;
+    font-family: "adobe-garamond-pro", serif;
+    font-style: italic;
+    font-weight: normal;
+    color: #343434;
+    float: left;
+  }
+}
